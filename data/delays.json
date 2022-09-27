@@ -1,0 +1,979 @@
+{
+  "nodes": [
+    {
+      "name": "controller-usc-0",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 100
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 135
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "controller-usc-1",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 100
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 135
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "controller-usc-2",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 100
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 135
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "worker-usc-0",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 100
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 135
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "worker-usc-1",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 100
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 135
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "worker-usc-2",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 1
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 1
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 100
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 135
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 135
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 32
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "worker-euw-0",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 100
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 100
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 100
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 100
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 100
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 1
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 33
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 33
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 33
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 82
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 82
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 82
+        }
+      ]
+    },
+    {
+      "name": "worker-euw-1",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 100
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 100
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 100
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 100
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 100
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 1
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 33
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 33
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 33
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 82
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 82
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 82
+        }
+      ]
+    },
+    {
+      "name": "worker-euw-2",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 100
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 100
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 100
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 100
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 100
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 100
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 1
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 1
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 33
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 33
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 33
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 82
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 82
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 82
+        }
+      ]
+    },
+    {
+      "name": "worker-eun-0",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 135
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 135
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 135
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 135
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 135
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 135
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 33
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 33
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 33
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 1
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 1
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 1
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 115
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 115
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 115
+        }
+      ]
+    },
+    {
+      "name": "worker-eun-1",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 135
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 135
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 135
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 135
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 135
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 135
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 33
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 33
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 33
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 1
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 1
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 1
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 115
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 115
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 115
+        }
+      ]
+    },
+    {
+      "name": "worker-eun-2",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 135
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 135
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 135
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 135
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 135
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 135
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 33
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 33
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 33
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 1
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 1
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 1
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 115
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 115
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 115
+        }
+      ]
+    },
+    {
+      "name": "worker-nane-0",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 32
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 32
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 32
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 32
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 32
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 32
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 82
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 82
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 82
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 115
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 115
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 115
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 1
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 1
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "worker-nane-1",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 32
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 32
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 32
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 32
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 32
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 32
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 82
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 82
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 82
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 115
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 115
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 115
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 1
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 1
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "worker-nane-2",
+      "delays": [
+        {
+          "node": "controller-usc-0",
+          "value": 32
+        },
+        {
+          "node": "controller-usc-1",
+          "value": 32
+        },
+        {
+          "node": "controller-usc-2",
+          "value": 32
+        },
+        {
+          "node": "worker-usc-0",
+          "value": 32
+        },
+        {
+          "node": "worker-usc-1",
+          "value": 32
+        },
+        {
+          "node": "worker-usc-2",
+          "value": 32
+        },
+        {
+          "node": "worker-euw-0",
+          "value": 82
+        },
+        {
+          "node": "worker-euw-1",
+          "value": 82
+        },
+        {
+          "node": "worker-euw-2",
+          "value": 82
+        },
+        {
+          "node": "worker-eun-0",
+          "value": 115
+        },
+        {
+          "node": "worker-eun-1",
+          "value": 115
+        },
+        {
+          "node": "worker-eun-2",
+          "value": 115
+        },
+        {
+          "node": "worker-nane-0",
+          "value": 1
+        },
+        {
+          "node": "worker-nane-1",
+          "value": 1
+        },
+        {
+          "node": "worker-nane-2",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

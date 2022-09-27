@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: placement-resolver
+  labels:
+    app: placement-resolver
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: placement-resolver
+  template:
+    metadata:
+      labels:
+        app: placement-resolver
+    spec:
+      containers:
+        - name: placement-resolver
+          image: smvfal/placementresolver
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+          volumeMounts:
+            - mountPath: /app/data/out
+              name: plc-volume
+      volumes:
+        - name: plc-volume
+          hostPath:
+            # directory location on host
+            path: /home/simone
+      nodeSelector:
+        faasRole: controller
+      tolerations:
+      - key: "dedicated"
+        operator: "Equal"
+        value: "openfaas"
+        effect: "NoSchedule"
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: placement-resolver
+spec:
+  type: NodePort
+  ports:
+    - name: http
+      port: 8080
+      targetPort: 8080
+      protocol: TCP
+  selector:
+    app: placement-resolver

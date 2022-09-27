@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "name": "controller-usc-0",
+      "memAvail": 16568090624,
+      "cpuAvail": 5,
+      "podsInNode": ["gateway-xxxx-yyyy-12345"]
+    },
+    {
+      "name": "worker-euw-0",
+      "memAvail": 16568090624,
+      "cpuAvail": 10,
+      "podsInNode": null
+    },
+    {
+      "name": "worker-nane-0",
+      "memAvail": 16568090624,
+      "cpuAvail": 20,
+      "podsInNode": null
+    }
+  ],
+  "pods": [
+    {
+      "name": "pod1",
+      "namespace": "default",
+      "UID": "ec2b9381-aaaa-4980-b835-de3c7035c3c0",
+      "cpuReqs": 10,
+      "cpuLimits": 10,
+      "memReqs": 53477376,
+      "memLimits": 53477376,
+      "appName": "app"
+    },
+    {
+      "name": "pod2",
+      "namespace": "default",
+      "UID": "eh2b9381-bbbb-4980-b835-de3c7035c3c0",
+      "cpuReqs": 10,
+      "cpuLimits": 10,
+      "memReqs": 53477376,
+      "memLimits": 53477376,
+      "appName": "app"
+    }
+  ]
+}
